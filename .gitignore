@@ -1,12 +1,5 @@
-logs/
-npm-debug.log
-node_modules/
-coverage/
-.idea/
-run/
-out/
-private/
+*.log
 .DS_Store
-*.swp
-/examples
-# /lib
+node_modules
+.cache
+dist
