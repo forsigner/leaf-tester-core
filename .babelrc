@@ -1,0 +1,23 @@
+{
+  "presets": [
+    ["env", {"modules": false}],
+    "flow",
+    "stage-2",
+    "react"
+  ],
+  "plugins": [
+    "transform-decorators-legacy",
+    "transform-async-to-generator",
+    "react-hot-loader/babel",
+    "transform-class-properties",
+    "transform-runtime",
+    "lodash",
+    [
+      "import",
+      {
+        "libraryName": "antd",
+        "style": "true"
+      }
+    ]
+  ]
+}
